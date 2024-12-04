@@ -41,7 +41,6 @@ ol {
 }
 
 .content {
-  position: absolute;
   box-sizing: border-box;
   width: 1140px;
   height: 534px;
@@ -188,6 +187,7 @@ ol {
   background-color: transparent;
   color: #fff;
   font-size: 18px;
+  letter-spacing: 0px;
   height: 34px;
   font-family: "FiraSansaCondensed", sans-serif;
 }
@@ -231,14 +231,13 @@ ol {
   height: 298px;
   overflow-y: scroll;
   position: relative;
+  display: grid;
+  align-items: end;
+  row-gap: 30px;
 }
 
 .preloader {
   position: absolute;
-}
-
-.content__list-item:not(:last-child) {
-  padding-bottom: 30px;
 }
 
 .content__video-card {
