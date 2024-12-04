@@ -16,7 +16,6 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  position: relative;
   display: flex;
   align-items: flex-end;
 }
@@ -41,6 +40,7 @@ ol {
 }
 
 .content {
+  align-items: center;
   box-sizing: border-box;
   width: 1140px;
   height: 534px;
@@ -63,11 +63,10 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  padding-top: 20px;
 }
 
 .result__video-container {
-  position: relative;
+  padding-bottom: 16px;
   height: 386px;
   width: 711px;
 }
@@ -116,7 +115,8 @@ ol {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
-  letter-spacing: -1em;
+  line-height: 23px;
+  letter-spacing: -1px;
 }
 
 .search-form__textfield:focus {
