@@ -17,6 +17,8 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   position: relative;
+  display: flex;
+  align-items: flex-end;
 }
 
 h1,
@@ -62,6 +64,7 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: end;
+  padding-top: 20px;
 }
 
 .result__video-container {
