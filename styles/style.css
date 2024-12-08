@@ -141,7 +141,7 @@ input {
 .search-form__checkbox-list {
   display: flex;
   align-items: flex-end;
-  gap: 10px;
+  gap: 15px;
   width: fit-content;
   padding-bottom: 6px;
 }
@@ -170,8 +170,7 @@ input {
 
 .search-form__label-text {
   font-size: inherit;
-  padding-left: 3px;
-  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -239,7 +238,7 @@ input {
   box-sizing: border-box;
   min-width: 420px;
   height: 298px;
-  overflow-y: scroll;
+  overflow: auto;
   display: grid;
   align-items: end;
   row-gap: 30px;
@@ -295,17 +294,14 @@ input {
   min-height: 100px;
 }
 
-.content__video-card-description-container .content__video-card-title {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .content__video-card-title {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-description {
